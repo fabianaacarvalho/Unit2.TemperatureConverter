@@ -1,11 +1,11 @@
 // function convertToCelsius(fahrenheit) {
-//   return (fahrenheit - 32) * (5 / 9);
+//   return parseInt((fahrenheit - 32) * (5 / 9));
 // }
 // const celsius = convertToCelsius(10);
 // console.log(celsius);
 
 function convertToCelsius(fahrenheit) {
-  return (fahrenheit - 32) * (5 / 9);
+  return parseInt((fahrenheit - 32) * (5 / 9));
 }
 
 function describeTemperature(fahrenheit) {
